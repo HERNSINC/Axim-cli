@@ -1,0 +1,11 @@
+pydantic>=2
+typing-extensions>=4.8
+requests>=2.31
+mistralai>=1.0.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+openai>=1.0.0
+
+[web]
+fastapi>=0.110
+uvicorn>=0.27
