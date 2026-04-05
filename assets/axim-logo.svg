@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 840" width="680" height="840">
+
+  <!-- Axim CLI Logo — Full Lockup -->
+  <!-- Colors: #163e4c (dark teal), #c8e87a (lime green) -->
+
+  <!-- Full background -->
+  <rect width="680" height="840" fill="#163e4c"/>
+
+  <!-- ── ICON MARK ── -->
+
+  <!-- Outer A -->
+  <polyline points="85,606 340,75 595,606"
+    fill="none" stroke="#c8e87a" stroke-width="13"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="187" y1="394" x2="493" y2="394"
+    stroke="#c8e87a" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Middle A -->
+  <polyline points="125,606 340,115 555,606"
+    fill="none" stroke="#c8e87a" stroke-width="13"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="218" y1="394" x2="462" y2="394"
+    stroke="#c8e87a" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Inner A -->
+  <polyline points="165,606 340,155 515,606"
+    fill="none" stroke="#c8e87a" stroke-width="13"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="247" y1="394" x2="433" y2="394"
+    stroke="#c8e87a" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Terminal cursor in A counter -->
+  <text x="340" y="258"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="38"
+    fill="#c8e87a"
+    opacity="0.38">&gt;_</text>
+
+  <!-- ── WORDMARK ── -->
+
+  <!-- Thin separator -->
+  <line x1="220" y1="668" x2="460" y2="668"
+    stroke="#c8e87a" stroke-width="0.75" opacity="0.25"/>
+
+  <!-- AXIM -->
+  <text x="340" y="778"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="72"
+    font-weight="bold"
+    letter-spacing="20"
+    fill="#c8e87a">AXIM</text>
+
+</svg>
