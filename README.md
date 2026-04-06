@@ -1,10 +1,9 @@
 # Axim code
 
-A high-performance agentic CLI and web-based terminal rewritten in Python and Rust.
+A high-performance agentic CLI and web-based terminal rewritten in Python.
 
 ## Structure
 
-- `axim-core` (Rust): Core performance library for shell interaction and terminal handling.
 - `axim-sdk` (Python): High-level agent and tool logic.
 - `web` (Python/FastAPI): Web interface for the agent.
 
@@ -28,12 +27,6 @@ The source code is encrypted to prevent reverse engineering while maintaining fu
 
 - **Cross-Platform Support**: The current build supports both **Windows (x64)** and **macOS (Intel/Apple Silicon via Rosetta)**.
 - **Privacy**: The core logic is protected and bound to HERNS INC / GRRN licenses.
-
-### Building the Rust Core
-1.  Navigate to `axim-core`.
-2.  Ensure `maturin` and `pyo3` are installed.
-3.  Build the extension: `maturin build --release`.
-4.  Copy the resulting `.so` or `.pyd` file into `axim-sdk/axim_sdk/`.
 
 ## Progress
 
