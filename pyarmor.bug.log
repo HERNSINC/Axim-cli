@@ -1,0 +1,12 @@
+[BUG]: no found prebuilt runtime extension for platform "darwin.universal"
+
+## Command Line
+/Users/grrnsupport/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyarmor/cli/__main__.py gen -O /Users/grrnsupport/Desktop/axim_universal -e 2027-04-06 --platform darwin.universal,windows.x86_64,linux.x86_64,linux.aarch64 /Users/grrnsupport/Desktop/Axim code/axim-sdk/axim_sdk
+
+## Environments
+Python 3.11.9
+Pyarmor 9.2.4 (trial), 000000, non-profits
+Platform darwin.x86_64
+Native darwin.x86_64
+Home /Users/grrnsupport/.pyarmor
+
