@@ -1,2 +1,0 @@
-[console_scripts]
-axim = axim_sdk.cli:main
