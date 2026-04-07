@@ -1,43 +1,34 @@
 # Axim SDK - Multi-Version Package
 
-This package provides obfuscated Axim SDK binaries compatible with Python 3.12, 3.13, and 3.14.
+This package provides obfuscated Axim SDK binaries compatible with Python 3.12 and 3.13.
 
 ## Installation
 
-Copy the entire `axim-sdk-multi-version` directory to your project and import it:
+Copy the entire `axim-sdk-multi-version` directory to your project and add it to `PYTHONPATH` or use `sys.path`:
 
 ```python
+import sys
+sys.path.insert(0, 'axim-sdk-multi-version')
 import axim_sdk
 ```
 
-The package automatically detects your Python version and loads the appropriate obfuscated binaries.
+The package automaticThe package automaticThe package automaticThe package automaticThe packagaries.
 
 ## Supported Python Versions
 
 - Python 3.12
 - Python 3.13
-- Python 3.14
 
 ## Structure
 
 ```
 axim-sdk-multi-version/
-├── __init__.py          # Auto-detection loader
-├── py312/               # Python 3.12 specific binaries
-├── py313/               # Python 3.13 specific binaries
-└── py314/               # Python 3.14 specific binaries
+├── README.md
+└── axim_sdk/
+    �    �    �    �           # Auto-detection loader
+    ├── py312/               # Python 3.12 specific binaries
+    └── py313/               # Python 3.13 specific binaries
 ```
 
-## Manual Version Selection
-
-If you need to use a specific version, you can import directly:
-
-```python
-import sys
-sys.path.insert(0, 'py312')  # For Python 3.12
-import axim_sdk
-```
-
-## Build Process
-
-Each version was built using PyArmor with the corresponding Python version to ensure runtime compatibility.
+## Manual Ver## Manual Ver## Ma you need## Manual Ver## Manual Ver## Ma c## Manual Ver## Manual Ver## Ma you needs
+sys.path.insert(0, 'axim-sdk-multi-versiosys.path.insert(0, '# For Python 3.1sys.path.insert(0, 'axim-sdk-multi-versiosys. vsys.path.insert(0, 'axim-sdk-multth the corresponding Python version to ensure runtime compatibility.
