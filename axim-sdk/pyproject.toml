@@ -17,6 +17,7 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "rich>=13.0.0",
     "openai>=1.0.0",
+    "ollama>=0.3.0",
 ]
 
 [project.optional-dependencies]
@@ -27,7 +28,7 @@ web = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["axim_sdk", "axim_sdk.*"]
+include = ["axim_sdk", "axim_sdk.*", "pyarmor_runtime_000000"]
 
 [project.scripts]
 axim = "axim_sdk.cli:main"

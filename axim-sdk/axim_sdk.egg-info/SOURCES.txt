@@ -4,6 +4,7 @@ axim_sdk/__init__.py
 axim_sdk/agent.py
 axim_sdk/cli.py
 axim_sdk/memory.py
+axim_sdk/multimodal.py
 axim_sdk/shell.py
 axim_sdk/turboquant.py
 axim_sdk.egg-info/PKG-INFO
@@ -14,3 +15,4 @@ axim_sdk.egg-info/requires.txt
 axim_sdk.egg-info/top_level.txt
 axim_sdk/tools/bash.py
 axim_sdk/tools/predictor.py
+pyarmor_runtime_000000/__init__.py

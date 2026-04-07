@@ -3,7 +3,7 @@ Name: axim-sdk
 Version: 0.1.0
 Summary: Axim Python SDK
 Author-email: Axim <example@example.com>
-Requires-Python: >=3.10
+Requires-Python: <3.13,>=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: pydantic>=2
 Requires-Dist: typing-extensions>=4.8
@@ -12,6 +12,7 @@ Requires-Dist: mistralai>=1.0.0
 Requires-Dist: python-dotenv>=1.0.0
 Requires-Dist: rich>=13.0.0
 Requires-Dist: openai>=1.0.0
+Requires-Dist: ollama>=0.3.0
 Provides-Extra: web
 Requires-Dist: fastapi>=0.110; extra == "web"
 Requires-Dist: uvicorn>=0.27; extra == "web"
@@ -28,6 +29,3 @@ source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
 ```
-
-## Optional: Rust core
-If you build the Rust extension in `../axim-core` (using maturin or setuptools-rust), it will provide `axim_core.ShellExecutor` for faster shell execution. Until then, the SDK falls back to Python's `subprocess`.
